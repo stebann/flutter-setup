@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-extension SizeExtension on num {
+extension NumberExtension on num {
   // Ejemplo: 8.pw / SizedBox(width: 8)
   // Ejemplo: 8.ph / SizedBox(height: 8)
 

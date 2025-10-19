@@ -1,5 +1,6 @@
 export 'app_colors.dart';
 export 'app_gradients.dart';
+export 'app_palette.dart';
 export 'app_shadows.dart';
 export 'app_sizes.dart';
 export 'app_theme.dart';

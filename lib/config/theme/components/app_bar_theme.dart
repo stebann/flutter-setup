@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../app_colors.dart';
+import '../tokens/app_colors.dart';
 
 class AppBarThemeCustom {
   static final AppBarTheme light = AppBarTheme(

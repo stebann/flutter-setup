@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../app_colors.dart';
-import '../app_sizes.dart';
+import '../tokens/app_colors.dart';
+import '../tokens/app_sizes.dart';
 
 class InputThemeCustom {
   static final InputDecorationTheme light = InputDecorationTheme(

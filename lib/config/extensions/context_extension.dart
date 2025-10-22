@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../theme/app_sizes.dart';
+import '../theme/tokens/app_sizes.dart';
 
 extension ContextExtension on BuildContext {
   /// Devuelve true si el tema actual es oscuro.

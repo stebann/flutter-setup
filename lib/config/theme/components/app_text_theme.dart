@@ -1,42 +1,49 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_setup/config/theme/app_colors.dart';
+
+import '../theme.dart';
 
 class AppTextTheme {
-  static const String primaryFont = 'Roboto';
-
   static final TextTheme light = TextTheme(
-    displayLarge: const TextStyle(color: AppColors.textPrimary),
-    displayMedium: const TextStyle(color: AppColors.textPrimary),
-    displaySmall: const TextStyle(color: AppColors.textPrimary),
-    headlineLarge: const TextStyle(color: AppColors.textPrimary),
-    headlineMedium: const TextStyle(color: AppColors.textPrimary),
-    headlineSmall: const TextStyle(color: AppColors.textPrimary),
-    titleLarge: const TextStyle(color: AppColors.textPrimary),
-    titleMedium: const TextStyle(color: AppColors.textPrimary),
-    titleSmall: const TextStyle(color: AppColors.textPrimary),
-    bodyLarge: const TextStyle(color: AppColors.textPrimary),
-    bodyMedium: const TextStyle(color: AppColors.textPrimary),
-    bodySmall: const TextStyle(color: AppColors.textSecondary),
-    labelLarge: const TextStyle(color: AppColors.textPrimary),
-    labelMedium: const TextStyle(color: AppColors.textPrimary),
-    labelSmall: const TextStyle(color: AppColors.textSecondary),
+    displayLarge: AppTexts.displayLarge.copyWith(color: AppColors.textPrimary),
+    displayMedium: AppTexts.displayMedium.copyWith(color: AppColors.textPrimary),
+    displaySmall: AppTexts.displaySmall.copyWith(color: AppColors.textPrimary),
+
+    headlineLarge: AppTexts.headlineLarge.copyWith(color: AppColors.textPrimary),
+    headlineMedium: AppTexts.headlineMedium.copyWith(color: AppColors.textPrimary),
+    headlineSmall: AppTexts.headlineSmall.copyWith(color: AppColors.textPrimary),
+
+    titleLarge: AppTexts.titleLarge.copyWith(color: AppColors.textPrimary),
+    titleMedium: AppTexts.titleMedium.copyWith(color: AppColors.textPrimary),
+    titleSmall: AppTexts.titleSmall.copyWith(color: AppColors.textPrimary),
+
+    bodyLarge: AppTexts.bodyLarge.copyWith(color: AppColors.textPrimary),
+    bodyMedium: AppTexts.bodyMedium.copyWith(color: AppColors.textPrimary),
+    bodySmall: AppTexts.bodySmall.copyWith(color: AppColors.textSecondary),
+
+    labelLarge: AppTexts.labelLarge.copyWith(color: AppColors.textPrimary),
+    labelMedium: AppTexts.labelMedium.copyWith(color: AppColors.textPrimary),
+    labelSmall: AppTexts.labelSmall.copyWith(color: AppColors.textSecondary),
   );
 
   static final TextTheme dark = TextTheme(
-    displayLarge: const TextStyle(color: AppColors.textPrimaryDark),
-    displayMedium: const TextStyle(color: AppColors.textPrimaryDark),
-    displaySmall: const TextStyle(color: AppColors.textPrimaryDark),
-    headlineLarge: const TextStyle(color: AppColors.textPrimaryDark),
-    headlineMedium: const TextStyle(color: AppColors.textPrimaryDark),
-    headlineSmall: const TextStyle(color: AppColors.textPrimaryDark),
-    titleLarge: const TextStyle(color: AppColors.textPrimaryDark),
-    titleMedium: const TextStyle(color: AppColors.textPrimaryDark),
-    titleSmall: const TextStyle(color: AppColors.textPrimaryDark),
-    bodyLarge: const TextStyle(color: AppColors.textPrimaryDark),
-    bodyMedium: const TextStyle(color: AppColors.textPrimaryDark),
-    bodySmall: const TextStyle(color: AppColors.textSecondaryDark),
-    labelLarge: const TextStyle(color: AppColors.textPrimaryDark),
-    labelMedium: const TextStyle(color: AppColors.textPrimaryDark),
-    labelSmall: const TextStyle(color: AppColors.textSecondaryDark),
+    displayLarge: AppTexts.displayLarge.copyWith(color: AppColors.textPrimaryDark),
+    displayMedium: AppTexts.displayMedium.copyWith(color: AppColors.textPrimaryDark),
+    displaySmall: AppTexts.displaySmall.copyWith(color: AppColors.textPrimaryDark),
+
+    headlineLarge: AppTexts.headlineLarge.copyWith(color: AppColors.textPrimaryDark),
+    headlineMedium: AppTexts.headlineMedium.copyWith(color: AppColors.textPrimaryDark),
+    headlineSmall: AppTexts.headlineSmall.copyWith(color: AppColors.textPrimaryDark),
+
+    titleLarge: AppTexts.titleLarge.copyWith(color: AppColors.textPrimaryDark),
+    titleMedium: AppTexts.titleMedium.copyWith(color: AppColors.textPrimaryDark),
+    titleSmall: AppTexts.titleSmall.copyWith(color: AppColors.textPrimaryDark),
+
+    bodyLarge: AppTexts.bodyLarge.copyWith(color: AppColors.textPrimaryDark),
+    bodyMedium: AppTexts.bodyMedium.copyWith(color: AppColors.textPrimaryDark),
+    bodySmall: AppTexts.bodySmall.copyWith(color: AppColors.textSecondaryDark),
+
+    labelLarge: AppTexts.labelLarge.copyWith(color: AppColors.textPrimaryDark),
+    labelMedium: AppTexts.labelMedium.copyWith(color: AppColors.textPrimaryDark),
+    labelSmall: AppTexts.labelSmall.copyWith(color: AppColors.textSecondaryDark),
   );
 }

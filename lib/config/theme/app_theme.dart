@@ -21,7 +21,7 @@ class AppTheme {
   static final ThemeData light = ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
-    fontFamily: AppTextTheme.primaryFont,
+    fontFamily: AppFonts.primary,
     primaryColor: AppColors.primary,
     colorScheme: ColorScheme(
       brightness: Brightness.light,
@@ -54,7 +54,7 @@ class AppTheme {
   static final ThemeData dark = ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    fontFamily: AppTextTheme.primaryFont,
+    fontFamily: AppFonts.primary,
     primaryColor: AppColors.primaryDark,
     colorScheme: ColorScheme(
       brightness: Brightness.dark,

@@ -6,15 +6,27 @@ void main() {
   runApp(const MainApp());
 }
 
-class MainApp extends StatelessWidget {
+class MainApp extends StatefulWidget {
   const MainApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    // Provider o cualquier otro método para obtener el modo oscuro
-    final bool isDark = MediaQuery.of(context).platformBrightness == Brightness.dark;
-    AppTheme.setSystemUIOverlayStyle(isDarkMode: isDark);
+  State<MainApp> createState() => _MainAppState();
+}
 
+class _MainAppState extends State<MainApp> {
+  final bool isDark = false;
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  initApp() async {
+    AppTheme.setSystemUIOverlayStyle(isDarkMode: isDark);
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Setup',
       theme: AppTheme(isDarkMode: isDark).currentTheme,
